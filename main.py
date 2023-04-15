@@ -36,7 +36,7 @@ while True:
             win=3
         cv2.imshow('Ai Game',gameimg[cid])
         cv2.imshow('user Game',gameimg[id])
-        time.sleep(2)
+        time.sleep(1)
 
     cv2.putText(img, "user wins | Ai wins",(20,400), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,23,0), 2)
     cv2.putText(img, str(pwin), (50, 450), cv2.FONT_ITALIC, 1, (255,23,0), 2)
